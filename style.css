@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(117, 204, 241);/* cpr de fundo*/ 
+    display: flex; /* layout da pagina é o flexbox*/ 
+    justify-content: center; /* centraliza o texto na horizontal*/ 
+    align-items: center; /* centraliza na vertical*/ 
+     height: 100vh /* define a altura da pagina*/
+
+}
+    .cartao /* o ponto referencia um class*/  {
+background-color: #ffffff;
+padding: 20px; /* espaçamento interno, da pra colocar direita esquerda cima(top) baixo(button)*/ 
+border-radius: 10px; /* cantos arredondados*/ 
+text-align: center; /* alinhamento do text0*/ 
+}
+button { 
+    background-color: rgba(255, 0, 0, 0.897);
+    color: #ffffff; /* cor do texto*/ 
+    border-radius: 10px;
+    padding: 10px 20px; /* 10 px em cima e 20 dos lados(sempre na ordem de altura e largura[em tudo. se for no especifico, vai ser só no especifico])*/ 
+    border:none; /* sem borda*/ 
+    cursor: pointer;
+}
+   button:hover{ 
+    background-color: rgb(112, 0, 0);
+   }  
+   .Imagem { /* referencia a class imagem*/ 
+    width: 120px;    /* largura*/ 
+    height: 120px;   /* altura*/ 
+    border-radius:50%; /* corta a imagem( deixa ela circular)*/ 
+    border:3px solid rgb(0, 0, 0)
+   } 

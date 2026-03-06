@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(0, 61, 160);/* cor de fundo*/ 
+    display: flex; /* layout da pagina é o flexbox*/ 
+    justify-content: center; /* centraliza o texto na horizontal*/ 
+    align-items: center; /* centraliza na vertical* (tem que vir junto com a height para funcionar)*/
+    height: 100vh; /* define a altura da pagina*/ 
+    padding: 0;
+    margin: 0;
+     
+}
+ .Imagemtrote /* o ponto referencia um class*/  {
+    background-color: #ffffff;
+    padding: 40px; /* espaçamento interno, da pra colocar direita esquerda cima(top) baixo(button); area em branco*/ 
+    text-align: center; /* alinhamento do texto*/ 
+    border-radius: 20px; /* arredonda a caixa*/
+    box-shadow: 0 15px 35px; /* sombra na caixa*/ 
+    gap: 10px; /* espaçamento entre header, section, footer*/ 
+
+} 
+/* os topicos estao dentro da div (Imagem trote), sempre que quiser mexer somente no css dos topicos, preciso colocar (ul{})*/ 
+    ul{  /* mexendo só na parte do ul*/ 
+    list-style: none;  /* tira os ponto antes dos topicos*/ 
+    align-items: center; /* alinhamento*/ 
+    flex-direction: column; /* organiza o texto em colunas*/ 
+    text-align: left; /* joga o texto para a esquerda*/   
+    padding-left: 105px; /* joga o texto que esta centralizado na esqueda para o meio dando "espaço"*/  
+
+ }
+button { 
+    background-color: rgba(255, 0, 0, 0.897);
+    color: #ffffff; /* cor do texto*/ 
+    border-radius: 10px;
+    padding: 10px 20px; /* espaçamento interno do botao*/ 
+    border:none; /* sem borda*/ 
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+   button:hover{ 
+    background-color: rgb(200, 0, 0);
+    transform: translateY(-5px);
+   }  
+   .Imagem { /* referencia a class imagem*/ 
+    display: block; /* faz a imagem ocupar a linha inteira*/ 
+    width: 140px;    /* largura*/ 
+    height: 140px;   /* altura*/ 
+    border-radius:20%; /* corta a imagem( deixa ela circular)*/ 
+    border:none; /* sem borda*/ 
+    margin: auto; /* alinha a imagem*/ 
+ }
+   
+   
