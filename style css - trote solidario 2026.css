@@ -1,0 +1,140 @@
+body { 
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #F4F7F6;
+    color: #333;
+}
+.menu-principal{ 
+    background-color: #1e3c72;
+    padding: 15px 0 ; /* espaçamento vertical e horizontal*/ 
+    position: sticky; /* oq fixa a barra do sitem la em cima*/ 
+    top: 0;
+    z-index: 1000 ; /* diferencia superficies(a que scrola e a que fica na frente)*/ 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /*x y z*/ /* rgba(quantidade de red green blue e a profundidade)*/ 
+}
+.menu-container{ 
+max-width: 1000px;
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0 20px;
+}
+.logo{
+    color: white;
+    text-decoration: none; /*cor do link*/ 
+    font-weight: bold;
+    font: size 1.2rem;
+    text-transform: uppercase ; /* caixa alta*/ 
+}
+.lista{ 
+    list-style: none;
+    display: flex;
+    gap: 20px; /* espaço entre os itens da lista*/ 
+    margin: 0;
+    padding: 0;
+}
+.lista li{ /* li somente dentro da lista*/  
+ color: #cbbcf7;
+
+}
+.lista a{ 
+ text-decoration: none; 
+ color:#cbbcf7;
+ font-size: 0.9rem; /* 1 em tem 16 px*/ 
+ font-weight: 500;
+ transition: color 0.3s;
+}
+.lista a:hover {
+    color: white; 
+} 
+.cabecalho{ /* header é a caixa*/ 
+   
+    padding-top: 80px; /* espaçamento interno para cima(top) */ 
+    background-color: #3e5c92;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+.cabecalho-container h1{ 
+    font-size: 2.5rem;
+    margin-bottom: 5px; /* espaçamento interno*/ 
+}
+.cabecalho-container h2{ 
+    font-weight: 300; 
+    font-style: italic;
+    color: #ffd700 ;
+}
+.principal { 
+    max-width: 900px; /* largura maxima da pagina */ 
+    margin: -40px auto 40px; /* centralizou todas os  */ 
+    padding: 20px;
+}
+.secao{ 
+    background: white;
+    margin: 20px; 
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+} 
+.secao2 { 
+    background: white;
+    margin: 20px; 
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+.secao3 { 
+    background: white;
+    margin: 20px; 
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    display: flex; /* coloca os dois cards na mesma linha(,odo flexivel) */ 
+    gap: 15px;
+}
+.card-entrega{
+    background: #e6eef8;
+    padding: 20px;
+    border-radius: 10px;
+    border-left: 5px solid #1e3c72;
+} 
+.card-noite{
+    background: #e6eef8;
+    padding: 20px;
+    border-radius: 10px;
+    border-left: 5px solid #1e3c72;
+}
+.secao4 { 
+    background: white;
+    margin: 20px; 
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+} 
+.card30 { 
+    color: #07c87e; 
+    padding: 20px; /* espaçamento interno*/ 
+    border-radius: 10px;
+    margin: 10px; /* espaçamento externo*/ 
+    text-align: left;
+    margin: 10px 0px;
+    background-color: rgb(240, 255, 240);
+}
+.card20 { 
+    color: #07c87e;
+    padding: 20px; /* esáçamento intero*/ 
+    border-radius: 10px;
+    margin: 20px; /* espaçamento externo*/ 
+    text-align: left;
+    margin: 10px 0px;
+    background-color: rgb(240, 255, 240);
+}
+.card-limite { 
+    color: #07c87e;
+    padding: 20px; /* espaçamento interno*/
+    border-radius: 10px;
+    margin: 10px 0px; /* espaçamento externo*/ 
+    text-align:left ;
+    background-color: rgb(240, 255, 240);
+}
